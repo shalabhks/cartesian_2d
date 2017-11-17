@@ -1,0 +1,3 @@
+gfortran -O0 -fbacktrace -g -fdefault-real-8 -fimplicit-none -I /usr/local/include datamod.f util.f interp.f euler.f geom.f bc.f timestep.f flux.f matrix.f fileio.f -llapack -lblas -L /usr/local/lib -lcgns
+
+# -fbounds-check slows down code

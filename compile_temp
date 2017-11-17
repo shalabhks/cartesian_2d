@@ -1,0 +1,1 @@
+gfortran -fbacktrace -fdefault-real-8 -fimplicit-none temp.f -llapack -lblas
